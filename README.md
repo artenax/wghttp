@@ -26,3 +26,17 @@ PresharedKey --preshared-key
 Local HTTP/SOCKS --listen
 
 You may need to disable DNS resolution through SOCKS proxy in the client.
+
+# (Cross) compiling from source code
+If you want to make your own build, install [Golang](https://go.dev/dl/), Git, and run the commands:
+```
+git clone https://github.com/zhsj/wghttp
+cd wghttp
+export GOARCH=386
+export GOOS=windows
+go build -ldflags="-s -w" -v -x
+```
+
+architectures: 386, amd64   
+operating systems: windows, linux   
+In Windows host use `set` instead of `export`   

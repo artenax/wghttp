@@ -40,3 +40,4 @@ go build -ldflags="-s -w" -v -x
 architectures: 386, amd64   
 operating systems: windows, linux   
 In Windows host use `set` instead of `export`   
+You can do this without Git if you download and extract the [source code](https://github.com/zhsj/wghttp/archive/refs/heads/master.zip) yourself.

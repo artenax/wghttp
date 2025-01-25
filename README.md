@@ -11,7 +11,7 @@ from proxy server goes to WireGuard network.
 In local exit mode, the proxy is served on WireGuard network, and the traffic
 from WireGuard goes to local network.
 
-For detailed usage, see <https://github.com/zhsj/wghttp/tree/master/docs>
+For detailed usage, see https://github.com/zhsj/wghttp/blob/master/docs/usage.md
 
 # Example
 

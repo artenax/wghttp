@@ -25,7 +25,7 @@ Endpoint --peer-endpoint
 PresharedKey --preshared-key   
 Local HTTP/SOCKS --listen
 
-You may need to disable DNS resolution through SOCKS proxy in the client.
+You may need to disable DNS resolution through SOCKS proxy in the client and restart it.
 
 # (Cross) compiling from source code
 If you want to make your own build, install [Golang](https://go.dev/dl/), Git, and run the commands:
